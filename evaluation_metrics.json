@@ -1,0 +1,32 @@
+{
+  "accuracy": 0.6676829268292683,
+  "precision_safe": 0.6091954022988506,
+  "recall_safe": 0.4140625,
+  "recall_unsafe": 0.83,
+  "f1_safe": 0.4930232558139535,
+  "roc_auc": 0.66248046875,
+  "confusion_matrix_labels_0_unsafe_1_safe": [
+    [
+      332,
+      68
+    ],
+    [
+      150,
+      106
+    ]
+  ],
+  "features": [
+    "ph",
+    "Hardness",
+    "Solids",
+    "Chloramines",
+    "Sulfate",
+    "Conductivity",
+    "Organic_carbon",
+    "Trihalomethanes",
+    "Turbidity"
+  ],
+  "training_rows": 2620,
+  "test_rows": 656,
+  "model_note": "Held-out split baseline; not independent field validation."
+}
